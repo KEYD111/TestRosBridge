@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/DC_Button_Subscrible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Subscrible"
+        android:textAllCaps="false" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/DC_Button_Publish"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Publish"
+            android:textAllCaps="false" />
+
+        <EditText
+            android:id="@+id/DC_EditText_EnterWord"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Please Enter the words to publish" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/DC_TextView_ShowData"
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"
+        android:background="@android:color/black"
+        android:textColor="@android:color/holo_green_light" />
+
+
+</LinearLayout>
